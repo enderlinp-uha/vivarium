@@ -48,7 +48,7 @@ abstract class BaseModel extends DB
     }
 
     /**
-     * Fonction de retourner le nombre de pages filtrées
+     * Fonction permettant de retourner le nombre de pages filtrées
      *
      * @return integer
      */
