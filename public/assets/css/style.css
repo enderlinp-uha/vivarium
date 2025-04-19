@@ -1,0 +1,40 @@
+/* CLASSES */
+
+.form-check-input.checkId:hover {
+	cursor: pointer;
+}
+
+.h-100vh {
+	height: 100vh;
+}
+
+.text-gray-500 {
+	color: var(--bs-gray-500);
+}
+
+.with-ordering > a {
+	float: left;
+	transition: 300ms;
+	width: 100%;
+}
+
+.with-ordering > a::after {
+	color: var(--bs-gray-300);
+	content: '\F127';
+	display: block;
+	float: right;
+	font-family: 'Bootstrap-icons';
+}
+
+.with-ordering > a:hover::after,
+.with-ordering.active > a::after {
+	color: var(--bs-black);
+}
+
+.with-ordering.active.order-asc > a::after {
+	content: '\F574';
+}
+
+.with-ordering.active.order-desc > a::after {
+	content: '\F575';
+}

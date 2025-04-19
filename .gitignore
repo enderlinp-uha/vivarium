@@ -1,0 +1,17 @@
+# Apache
+.htpasswd
+public/.htaccess.*
+
+# Environment
+.env
+
+# Folders
+.pdf/
+public/assets/scss/
+
+# Logs
+writable/logs/*
+!writable/logs/index.html
+
+# macOS
+.DS_Store
