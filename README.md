@@ -152,7 +152,7 @@ setInterval(autoReproduce, REFRESH_RATE * 1000);
 
 #### Paramétrage côté serveur
 
-Les paramètres de peuplement automatique sont définis dans la classe [app/config/provider.php](https://github.com/enderlinp-uha/vivarium/blob/main/app/Config/Provider.php) :
+Les paramètres de peuplement automatique sont définis dans la classe [app/Config/Provider.php](https://github.com/enderlinp-uha/vivarium/blob/main/app/Config/Provider.php) :
 
 ```php
 <?php
