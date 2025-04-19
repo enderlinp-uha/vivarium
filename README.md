@@ -203,7 +203,7 @@ vivarium/
 │   ├── assets/       → Ressources front-end : CSS, JavaScript, polices de caractères
 │   ├── .htaccess     → Réécriture d'URL vers index.php
 │   └── index.php     → Front controller : point d'entrée unique de l'application
-├── vendor/           → Dépendances installées via Composer (si utilisé)
+├── vendor/           → Dépendances installées via Composer
 ├── sql/              → Scripts SQL pour créer la base de données
 ├── writable/         → Contient le dossier logs
 ```
