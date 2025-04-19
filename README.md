@@ -18,7 +18,7 @@ Elle permet notamment de :
 
 ### Configuration
 
-Le fichier contenant les paramètres généraux de l'application se trouve dans le dossier [app/config/app.php](https://github.com/enderlinp-uha/vivarium/blob/main/app/config/app.php), dont en particulier la constante `BASE_URL`.
+Le fichier contenant les paramètres généraux de l'application se trouve dans le dossier [app/Config/App.php](https://github.com/enderlinp-uha/vivarium/blob/main/app/Config/App.php), dont en particulier la constante `BASE_URL`.
 
 Modifiez ces paramètres, tel que figuré ci-dessous :
 
@@ -61,7 +61,7 @@ class App
 }
 ```
 
-Le fichier contenant les paramètres de connexion à la base de données MySQL se trouve dans le dossier [app/config/database.php](https://github.com/enderlinp-uha/vivarium/blob/main/app/config/database.php).
+Le fichier contenant les paramètres de connexion à la base de données MySQL se trouve dans le dossier [app/Config/Database.php](https://github.com/enderlinp-uha/vivarium/blob/main/app/Config/Database.php).
 
 Modifiez ces paramètres comme ci-dessous :
 
@@ -152,7 +152,7 @@ setInterval(autoReproduce, REFRESH_RATE * 1000);
 
 #### Paramétrage côté serveur
 
-Les paramètres de peuplement automatique sont définis dans la classe [app/config/provider.php](https://github.com/enderlinp-uha/vivarium/blob/main/app/config/provider.php) :
+Les paramètres de peuplement automatique sont définis dans la classe [app/config/provider.php](https://github.com/enderlinp-uha/vivarium/blob/main/app/Config/Provider.php) :
 
 ```php
 <?php
