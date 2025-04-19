@@ -7,6 +7,7 @@ Vivarium est une application web de gestion de vivarium de serpents domestiques 
 Elle permet notamment de :
 - Ajouter, modifier ou supprimer des serpents ;
 - Filtrer par race et genre ;
+- Trier la liste des serpents par nom, poids, durée de vie, etc. ;
 - Visualiser la répartition des genres ;
 - Effectuer des accouplements ;
 - Suivre la généalogie des serpents ;
@@ -178,6 +179,8 @@ class Provider
 
 Ce système permet de simuler un vivarium vivant, dans lequel les serpents peuvent se reproduire automatiquement à intervalle régulier, sans intervention manuelle.
 
+L'écosystème prend également en charge la **mort naturelle des serpents** : chaque serpent possède une date et heure de naissance, ainsi qu'une durée de vie aléatoire. Lorsqu'ils atteignent la fin de leur durée de vie, ils sont automatiquement marqués comme morts.
+
 ### Accès à l'application
 
 Assurez-vous que votre domaine ou sous-domaine (ex : `localhost`, `vivarium.local`, etc.) pointe vers le dossier **`public/`** du projet, et non vers la racine.
@@ -217,4 +220,4 @@ vivarium/
 
 ## Licence
 
-© 2025 enderlinp-uha. Reproduction interdite sans autorisation de leurs auteurs.
+© 2025 enderlinp-uha. Reproduction interdite sans autorisation de l'auteur.
