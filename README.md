@@ -195,13 +195,13 @@ http://localhost:8080/
 ```
 vivarium/
 ├── app/
-│   ├── config/       → Paramètres de configuration de l'application (base de données, app, etc.)
-│   ├── controllers/  → Logique de traitement (MVC) : les actions appelées via les routes
-│   ├── core/         → Classes de base du framework (routeur)
-│   ├── entities/     → Représentations orientées objet des données (ex : SnakeEntity)
-│   ├── helpers/      → Fonctions utilitaires globales (formatage, nom aléatoire, pagination...)
-│   ├── models/       → Accès aux données via des requêtes SQL ou méthodes ORM
-│   └── views/        → Fichiers de présentation HTML/PHP (liste, formulaire, fenêtre modale, etc.)
+│   ├── Config/       → Paramètres de configuration de l'application (base de données, app, etc.)
+│   ├── Controllers/  → Logique de traitement (MVC) : les actions appelées via les routes
+│   ├── Core/         → Classes de base du framework (routeur)
+│   ├── Entities/     → Représentations orientées objet des données (ex : SnakeEntity)
+│   ├── Helpers/      → Fonctions utilitaires globales (formatage, nom aléatoire, pagination...)
+│   ├── Models/       → Accès aux données via des requêtes SQL ou méthodes ORM
+│   └── Views/        → Fichiers de présentation HTML/PHP (liste, formulaire, fenêtre modale, etc.)
 ├── public/           → Point d’entrée de l'application
 │   ├── assets/       → Ressources front-end : CSS, JavaScript, polices de caractères
 │   ├── .htaccess     → Réécriture d'URL vers index.php
