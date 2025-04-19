@@ -13,7 +13,7 @@ class Provider
     public static int $max_to_generate = 10;
     
     // Délai minimum entre deux reproductions (en minutes)
-    public static int $reproduction_interval = 3;
+    public static int $reproduction_interval = 1;
 
     // Nom des serpents
     public static array $name = [
