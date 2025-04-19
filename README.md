@@ -12,6 +12,7 @@ Elle permet notamment de :
 - Effectuer des accouplements ;
 - Suivre la généalogie des serpents ;
 - Générer un peuplement aléatoire ;
+- Gérer automatiquement la mort des serpents selon leur durée de vie ;
 - Lister les accouplements ;
 - Lancer la reproduction automatique si les conditions sont réunies.
 
@@ -179,7 +180,7 @@ class Provider
 
 Ce système permet de simuler un vivarium vivant, dans lequel les serpents peuvent se reproduire automatiquement à intervalle régulier, sans intervention manuelle.
 
-L'écosystème prend également en charge la **mort naturelle des serpents** : chaque serpent possède une date et heure de naissance, ainsi qu'une durée de vie aléatoire. Lorsqu'ils atteignent la fin de leur durée de vie, ils sont automatiquement marqués comme morts.
+L'écosystème prend également en charge la **mort naturelle des serpents** : chaque serpent possède une date et heure de naissance, ainsi qu'une durée de vie aléatoire. Lorsqu'ils atteignent la fin de leur durée de vie, ils sont automatiquement marqués comme morts dans le vivarium.
 
 ### Accès à l'application
 
